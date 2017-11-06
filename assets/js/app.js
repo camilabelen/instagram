@@ -1,5 +1,8 @@
-function add(){
-	//tenemos que tomar el texto ingresado en el textarea
+var botoncito = document.getElementById("btn");
+
+botoncito.addEventListener("click", function(){
+
+//tenemos que tomar el texto ingresado en el textarea
 	var comments = document.getElementById('comment').value;
 
 	//limpiar el textarea
@@ -37,12 +40,4 @@ function add(){
 
 	cont.appendChild(newComments);
 
-
-
-
-
-
-
-
-
-}
+});
